@@ -1,0 +1,3 @@
+- pipeline: "Monorepo"
+  trigger_mode: "MANUAL"
+  ref_name: "master"
