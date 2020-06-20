@@ -13,7 +13,7 @@ public class main {
         Printer printer = m -> System.out.println(m);
         printer.print("asdasd");
         int a = 5;
-        int b = 1;
+        int b = 2;
         Calc s = (x, y) ->  x * y;
         int result = s.calculate(a, b);
         System.out.println(result);
