@@ -1,4 +1,4 @@
-- pipeline: "Build-Anylearn"
+- pipeline: "Build-ModuleA"
   trigger_mode: "ON_EVERY_PUSH"
   ref_name: "(^((?!master$).)*$)"
   ref_type: "WILDCARD"
