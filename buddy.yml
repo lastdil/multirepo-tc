@@ -13,7 +13,7 @@
         - "/root/.m2/repository"
       volume_mappings:
         - "/:/buddy/multirepo-tc/moduleA"
-      trigger_condition: "ON_CHANGE_AT_PATH"
-      trigger_condition_paths:
-        - "multirepo-tc/moduleA"
+#      trigger_condition: "ON_CHANGE_AT_PATH"
+#      trigger_condition_paths:
+#        - "multirepo-tc/moduleA"
       shell: "BASH"
